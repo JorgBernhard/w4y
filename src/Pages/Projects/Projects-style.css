@@ -38,11 +38,12 @@
   gap: 4rem;
 }
 .Work1 {
-  width: 40rem;
-  height: 30rem;
+  width: 30%;
+  box-shadow: 1rem 1rem 1rem 0.1rem rgb(37, 37, 37);
 }
 .Work2 {
-  height: 30rem;
+  box-shadow: 1rem 1rem 1rem 0.1rem rgb(37, 37, 37);
+  width: 10%;
 }
 .Fotos02 {
   display: flex;
@@ -52,12 +53,12 @@
   gap: 4rem;
 }
 .Work3 {
-  width: 40rem;
-  height: 30rem;
+  width: 30%;
+  box-shadow: 1rem 1rem 1rem 0.1rem rgb(37, 37, 37);
 }
 .Work4 {
-  width: 40rem;
-  height: 30rem;
+  width: 30%;
+  box-shadow: 1rem 1rem 1rem 0.1rem rgb(37, 37, 37);
 }
 .FussnotePro {
   display: flex;
