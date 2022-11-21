@@ -1,0 +1,119 @@
+.Projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(11, 46, 46);
+  background-image: url('../../assets/cabo.png');
+  background-size: cover;
+}
+.Header-Projects {
+  font-family: 'Nunito', sans-serif;
+  font-size: 3rem;
+  font-weight: 300;
+  color: white;
+}
+.Texto-Pro {
+  font-family: 'Nunito', sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  color: white;
+}
+.Fotos {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+.Fotos01 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+.Work1 {
+  width: 40rem;
+  height: 30rem;
+}
+.Work2 {
+  height: 30rem;
+}
+.Fotos02 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+.Work3 {
+  width: 40rem;
+  height: 30rem;
+}
+.Work4 {
+  width: 40rem;
+  height: 30rem;
+}
+.FussnotePro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 4rem;
+  gap: 2rem;
+}
+@media only screen and (max-width: 1400px) {
+  .FussnotePro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+     }}
+
+.MainPro img {
+  width: 4rem;
+  height: 4rem;
+}
+@media only screen and (max-width: 1400px) {
+  .MainPro img {
+    width: 3rem;
+    height: 3rem;
+     }}
+
+.WhatPro img {
+  width: 4rem;
+  height: 4rem;
+}
+@media only screen and (max-width: 1400px) {
+  .WhatPro img {
+    width: 3rem;
+    height: 3rem;
+     }}
+
+.RocketPro img {
+  width: 4rem;
+  height: 4rem;
+}
+@media only screen and (max-width: 1400px) {
+  .RocketPro img {
+    width: 3rem;
+    height: 3rem;
+     }}
+     
+.MailPro img {
+  width: 4rem;
+  height: 4rem;
+}
+@media only screen and (max-width: 1400px) {
+  .MailPro img {
+    width: 3rem;
+    height: 3rem;
+     }}
