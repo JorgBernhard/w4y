@@ -15,6 +15,7 @@
   font-size: 3rem;
   font-weight: 300;
   color: white;
+  margin-top: -1rem;
 }
 .Texto-Pro {
   font-family: 'Nunito', sans-serif;
@@ -41,10 +42,30 @@
   width: 30%;
   box-shadow: 1rem 1rem 1rem 0.1rem rgb(37, 37, 37);
 }
+@media only screen and (max-width: 1400px) {
+  .Work1 {
+    width: 20%;
+    box-shadow: 1rem 1rem 1rem 0.1rem rgb(37, 37, 37);
+     }}
+     @media only screen and (max-width: 400px) {
+      .Work1 {
+        width: 50%;
+        box-shadow: 1rem 1rem 1rem 0.1rem rgb(37, 37, 37);
+         }}
 .Work2 {
   box-shadow: 1rem 1rem 1rem 0.1rem rgb(37, 37, 37);
-  width: 10%;
+  width: 9.5%;
 }
+@media only screen and (max-width: 1400px) {
+  .Work2 {
+    width: 6.2%;
+    box-shadow: 1rem 1rem 1rem 0.1rem rgb(37, 37, 37);
+     }}
+     @media only screen and (max-width: 400px) {
+      .Work2{
+        width: 20%;
+        box-shadow: 1rem 1rem 1rem 0.1rem rgb(37, 37, 37);
+         }}
 .Fotos02 {
   display: flex;
   flex-direction: row;
@@ -52,14 +73,43 @@
   justify-content: center;
   gap: 4rem;
 }
+@media only screen and (max-width: 400px) {
+  .Fotos02 {
+    display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+     }}
 .Work3 {
   width: 30%;
   box-shadow: 1rem 1rem 1rem 0.1rem rgb(37, 37, 37);
 }
+
+@media only screen and (max-width: 1400px) {
+  .Work3 {
+    width: 20%;
+    box-shadow: 1rem 1rem 1rem 0.1rem rgb(37, 37, 37);
+     }}
+     @media only screen and (max-width: 400px) {
+      .Work3 {
+        width: 70%;
+        box-shadow: 1rem 1rem 1rem 0.1rem rgb(37, 37, 37);
+         }}
 .Work4 {
   width: 30%;
   box-shadow: 1rem 1rem 1rem 0.1rem rgb(37, 37, 37);
 }
+@media only screen and (max-width: 1400px) {
+  .Work4 {
+    width: 20%;
+    box-shadow: 1rem 1rem 1rem 0.1rem rgb(37, 37, 37);
+     }}
+     @media only screen and (max-width: 400px) {
+      .Work4 {
+        width: 70%;
+        box-shadow: 1rem 1rem 1rem 0.1rem rgb(37, 37, 37);
+         }}
 .FussnotePro {
   display: flex;
   flex-direction: row;

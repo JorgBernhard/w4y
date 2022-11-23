@@ -29,7 +29,7 @@ function What() {
               <a className="RocketWhat" href='#projects'><img ClassName="RocketBottom" src={RocketBottom} alt="RocketB" /></a>
               <a className="MailWhat" href='#contact'><img ClassName="ContactBottom" src={ContactBottom} alt="ContactB" /></a>
         </div>
-        </div>
+    </div>
    </div>
   );
 }

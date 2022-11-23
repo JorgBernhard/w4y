@@ -1,0 +1,86 @@
+.nav-icon img {
+  height: 30px;
+  position: fixed;
+  top: 1rem;
+  right: 2rem;
+  z-index: 30;
+  cursor: pointer;
+}
+.nav-icon img:hover {
+  transform: rotate(45deg);
+}
+@media only screen and (max-width: 1400px) {
+  .nav-icon img  {
+    height: 20px;
+  }
+}
+
+.nav-menu {
+  background-color: rgba(255, 255, 255, 0);
+  width: 100vw;
+  height: 4rem;
+  display: flex;
+  position: fixed;
+  top: 0.5rem;
+  right: 100vw;
+  transition: 250ms;
+  z-index: 10;
+}
+
+
+.nav-menu.active {
+  right: 0px;
+  transition: 250ms;
+}
+
+.nav-menu-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  
+}
+
+.nav-menu-items .links-header {
+  padding: 1rem 1rem;
+}
+
+.nav-menu-items .links-header:first-child {
+  margin-top: 3rem;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Nunito', sans-serif;
+  font-size: 2.4rem;
+  font-weight: 300;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+@media only screen and (max-width: 1400px) {
+  a {
+    font-size: 1.6rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    margin-top: -1rem;
+  }
+}
+a:hover {
+  color: rgb(255, 102, 0);
+}
+
+.nav-menu span {
+  cursor: pointer;
+  position: absolute;
+  right: 1.8rem;
+  top: 0.8rem;
+  color: white;
+  font-size:2.4rem;
+}
+
+.nav-menu span:hover {
+  color: rgb(255, 102, 0);
+}
