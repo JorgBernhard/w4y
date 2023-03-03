@@ -11,7 +11,7 @@ function Contact() {
       <img className="ContactJorg" src={Jorg}alt="jorg" />
       <div className="ContactTextContainer">
         <h3 className="ContactHeader">Contact</h3>   
-        <h5 className="ContactText">Thank you so mutch for you interest. 
+        <h5 className="ContactText">Thank you so mutch for your interest. 
         If you like to contact me, please send a email or use whatsapp. 
         I will love to get in touch with you.<br></br><br></br> Anyway my contact address is:
         <br></br><br></br>
