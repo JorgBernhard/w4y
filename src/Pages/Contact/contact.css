@@ -1,0 +1,58 @@
+.Contact {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(29, 29, 29);
+    align-items: center;
+    justify-content: center;
+  }
+  .Contact-Container {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    height: 100vh;
+    background-color: rgb(29, 29, 29);
+    justify-content: center;
+    align-items: center;
+  }
+  .ContactJorg {
+    width:20rem;
+    border-radius: 5rem;
+    border: solid 0.3rem greenyellow;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-top: 0rem;
+  }
+  .ContactTextContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .ContactHeader {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    color: rgb(173,255,47);
+    margin-left: 0rem;
+    text-align: center;
+  }
+  .ContactText {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 1.4rem;
+    font-family: 100;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    margin-bottom: 5%;
+    width: 90%;
+ }
+ .ContactLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
+  cursor: pointer;
+  }
+ 

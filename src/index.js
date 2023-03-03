@@ -1,17 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Main from './Pages/Main/Main';
-import What from './Pages/What/What';
-import Projects from './Pages/Projects/Projects';
+
+import Header from './Pages/Header/Header';
+import Home from './Pages/Home/Home';
+import Me from './Pages/Me/Me';
+import Projetos from './Pages/Projetos/Projetos';
 import Contact from './Pages/Contact/Contact';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Main />
-    <What />
-    <Projects />
+    <Header />
+    <Home />
+    <Me />
+    <Projetos />
     <Contact />
   </React.StrictMode>
 );

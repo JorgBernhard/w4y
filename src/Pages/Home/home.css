@@ -1,0 +1,121 @@
+.Home {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(29, 29, 29);
+  align-items: center;
+  justify-content: center;
+}
+.Home-Container {
+  display: flex;
+  flex-direction: column;
+  max-width: 90%;
+  height: 100%;
+  background-color: rgb(29, 29, 29);
+
+  justify-content: center;
+  align-items: center;
+}
+.Avatar {
+  width: 18rem;
+  height: 22rem;
+ 
+  margin-bottom: 4rem;
+}
+.HomeTextContainer {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+}
+.HomeTextJorg {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.Hi {
+  font-family: 'Caveat', cursive;
+  font-weight: 100;
+  font-size: 3rem;
+  color: rgb(255, 255, 255);
+  margin-right: 1rem;
+}
+.Jorg {
+  font-family: 'Caveat', cursive;
+  font-weight: 100;
+  font-size: 3.4rem;
+  color: rgb(173,255,47);
+  margin-left: 1rem;
+}
+.HomeTextGeral {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Designer {
+  font-family: 'Raleway', sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.Home-Text {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 100;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-bottom: 8%;
+}
+.MeButtom {
+all: unset;
+font-family: 'Raleway', sans-serif;
+font-size: 1.4rem;
+font-weight: 700;
+color: rgb(0, 0, 0);
+padding: 1rem;
+border-radius: 1rem;
+background-color: greenyellow;
+margin-bottom: 24%;
+cursor: pointer;
+}
+.MeButtom:hover {
+  background-color: rgb(139, 207, 35);
+}
+.HomeLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  cursor: pointer;
+  }
+  
+.Mail {
+  height: 3rem;
+}
+.Git {
+  height: 3rem;
+}
+.Linked {
+  height: 3rem;
+}
+.Whats {
+  height: 3rem;
+}
+.Mail:hover {
+ transform: rotate(10deg);
+}
+.Git:hover {
+  transform: rotate(10deg);
+ }
+ .Linked:hover {
+  transform: rotate(10deg);
+ }
+ .Whats:hover {
+  transform: rotate(10deg);
+ }

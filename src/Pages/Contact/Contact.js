@@ -1,34 +1,34 @@
-import './Contact-style.css';
-import MainBottom from '../../assets/botao-home.png';
-import WhatBottom from '../../assets/team.png';
-import RocketBottom from '../../assets/rocket.png';
-import ContactBottom from '../../assets/contact-mail.png';
+import './contact.css';
+import Whats from '../../assets/whatsapp.png';
+import Mail from '../../assets/Email.png';
+import Jorg from '../../assets/Jorg.png';
 
 function Contact() {
   return (
     <div id="contact">
     <div className="Contact">
-      <div className="Container-Contact">
-        <h2 className="Header-Contact">How to find us</h2> 
-        <h4 className="Texto-cont">
-          Contact us:<br></br>
-          Telephone: (+5584) 99968-5830 <br></br>Whats-Up / Telegram<br></br>
-          Email: jorg.reske@gmail.com<br></br><br></br>
+      <div className="Contact-Container">
+      <img className="ContactJorg" src={Jorg}alt="jorg" />
+      <div className="ContactTextContainer">
+        <h3 className="ContactHeader">Contact</h3>   
+        <h5 className="ContactText">Thank you so mutch for you interest. 
+        If you like to contact me, please send a email or use whatsapp. 
+        I will love to get in touch with you.<br></br><br></br> Anyway my contact address is:
+        <br></br><br></br>
+        Jörg Bernhard Reske<br></br>
+        Rua Lagoa Nova, 124 - Bloco B 402,<br></br>
+        CEP: 59152-655 <br></br>
+        Nova Parnamirim / Parnamirim<br></br>
+        Brasil.<br></br> <br></br>
 
-          Adress:<br></br>
-          W4Y<br></br>
-          Rua Lagoa Nova, 124 B402<br></br>
-          Cep: 59152-655<br></br>
-          Nova Parnamirim / Parnamirim<br></br>
-          RN / Brasil<br></br>
-        </h4>
-      </div>
-    <div className="FussnoteCont">
-          <a className="MainCont" href='#main'><img ClassName="MainBottom" src={MainBottom} alt="MainB" /></a>
-          <a className="WhatCont" href='#what'><img ClassName="WhatBottom" src={WhatBottom} alt="WhatB" /></a>
-          <a className="RocketCont" href='#projects'><img ClassName="RocketBottom" src={RocketBottom} alt="RocketB" /></a>
-          <a className="MailCont" href='#contact'><img ClassName="ContactBottom" src={ContactBottom} alt="ContactB" /></a>
-      </div>
+        Thanks a lot and have a nice day!<br></br> <br></br>
+        </h5>
+        <div className="ContactLinks">
+        <a className="Mail" href='#mailto:jorg.reske@gmail.com'><img className="Mail" src={Mail} alt="mail" /></a>  
+        <a className="Whats" target="_blank" rel="noreferrer" href={"https://api.whatsapp.com/send/?phone=5584999685830&text&type=phone_number&app_absent=0"} alt="Whatsapp"><img className="Whats" src={Whats} alt="Whats" /></a> 
+        </div>
+        </div>
+        </div>
     </div>
     </div>
   );
