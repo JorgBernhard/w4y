@@ -1,76 +1,97 @@
-
-.nav-icon img {
-  height: 3%;
-  position: fixed;
-  top: 1rem;
-  margin-left: 75%;
-  z-index: 30;
-  cursor: pointer;
-}
-@media only screen and (max-width: 440px) {
-  .nav-icon img {
-    right: 2rem;
-   }}
-.nav-menu {
-  background-color: rgba(40, 40, 40, 0);
-  width: 30%;
-  height: 10%;
-  position: fixed;
-  top: 1.5rem;
-  left: 120%;
-  transition: 250ms;
-  z-index: 20;
-
-}
-@media only screen and (max-width: 440px) {
-  .nav-menu {
-    right: 0rem;
-   }}
-.nav-menu.active {
-  left:36.5%;
-}
-
-.nav-menu-items {
+.Header {
   display: flex;
   flex-direction: row;
-  justify-content:center;
-  align-items: center;
-  width: 100%;
-  gap: 1rem;
-  margin-top: -1%;
-}
 
-.SideBar-Header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  width: 100%;
+  justify-content: center;
   
 }
+.HeaderContainer {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
 
-a {
-  text-decoration: none;
-  font-family: 'Satisfy', cursive;
-  font-size: 1.8rem;
-  color: rgb(255, 255, 255);
-  margin-bottom: 0rem;
+  width: 100rem;
+  height: 4rem;
+
+  margin-top: 4rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.Logo {
+  width: 10rem;
+
+  margin-left: -6rem;
+  margin-top: 2rem;
+}
+.Headerlinks {
+  flex-direction: row;
+  margin-top: 2rem;
+}
+.HeaderHome{
+  all: unset;
+
+  font-family: 'Caveat', cursive;
+  font-size: 2.6rem;
+
+  color: #ffffff;
   cursor: pointer;
-}
 
-a:hover {
-  color: rgb(173, 255, 47);
+  margin-top: 2rem;
+  margin-right:1rem;
+  margin-left: 1rem;
 }
+.HeaderHome:hover {
+  color: rgb(255, 51, 170);
+}
+.HeaderWork{
+  all: unset;
 
-.nav-menu span {
+  font-family: 'Caveat', cursive;
+  font-size: 2.6rem;
+
+  color: #ffffff;
   cursor: pointer;
-  position: absolute;
-  right: 1.8rem;
-  top: 0.8rem;
-  color: rgba(0, 0, 0, 0);
-  font-size:2.4rem;
-}
 
-.nav-menu span:hover {
-  color: rgba(146, 146, 146, 0);
+  margin-top: 2rem;
+  margin-right:1rem;
+  margin-left: 1rem;
+}
+.HeaderWork:hover {
+  color: rgb(255, 51, 170);
+}
+.HeaderUs {
+  all: unset;
+
+  font-family: 'Caveat', cursive;
+  font-size: 2.6rem;
+
+  color: #ffffff;
+  cursor: pointer;
+
+  margin-top: 2rem;
+  margin-right:1rem;
+  margin-left: 1rem;
+}
+.HeaderUs:hover {
+  color: rgb(255, 51, 170);
+}
+.HeaderContact {
+  all: unset;
+
+  font-family: 'Caveat', cursive;
+  font-size: 2.6rem;
+
+  color: #ffffff;
+  cursor: pointer;
+
+  margin-top: 2rem;
+  margin-right:1rem;
+  margin-left: 1rem;    
+}
+.HeaderContact:hover {
+  color: rgb(255, 51, 170);
+}
+.Headerrechts {
+  flex-direction: row;
 }

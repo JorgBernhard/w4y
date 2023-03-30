@@ -1,24 +1,29 @@
-import './Main-style.css';
-import Logo from '../../assets/w4y.png'
-import MainBottom from '../../assets/botao-home.png';
-import WhatBottom from '../../assets/team.png';
-import RocketBottom from '../../assets/rocket.png';
-import ContactBottom from '../../assets/contact-mail.png';
+import Management from '../../images/ManagementBack.png';
+import Job from '../../images/jobinterview.png';
+import Meeting from '../../images/meeting.png';
+
+import './main.css';
 
 function Main() {
   return (
     <div id="main">
     <div className="Main">
-      <div className="Container-Main">
-         <h2 className="BemVindo">Bem Vindo</h2> 
-         <a className="Home" href='#what'><img className="W4Y" src={Logo} alt="Logo" /></a>
-         <h2 className="Slogan">What can we do for you?</h2>
+      <div className='MainContainer'>
+        <h1 className='HeaderText'>Powerful and easy to use<br></br> web-applications</h1>
+        <h1 className='MainText'>We specialize in creating visual identities for your 
+        company,<br></br> products abd brands.</h1>
+      <div className='MainContainerCenter'>
+        <img className='Job' src={Job} alt="Job"></img>
+        <img className='Meeting' src={Meeting} alt="Meeting"></img>
+        <img className='Management' src={Management} alt="Management"></img>
       </div>
-      <div className="Fussnote">
-          <a className="MainB" href='#main'><img ClassName="MainBottom" src={MainBottom} alt="MainB" /></a>
-          <a className="WhatB" href='#what'><img ClassName="WhatBottom" src={WhatBottom} alt="WhatB" /></a>
-          <a className="RocketB" href='#projects'><img ClassName="RocketBottom" src={RocketBottom} alt="RocketB" /></a>
-          <a className="MailB" href='#contact'><img ClassName="ContactBottom" src={ContactBottom} alt="ContactB" /></a>
+      <div className='BotomContainer'>
+      <h1 className='BotomText'>We have everything that's required <br></br> 
+      for the web-app</h1>
+      <h1 className='BotomTextGeral'>W4Y, we are the perfect team to atemt your companies
+      needs in creating the first impression,<br></br>  that your customers will experience.</h1>
+      <a className="Mail" href='mailto:w4ysolutions@gmail.com'>Get started</a>  
+      </div>
       </div>
     </div>
     </div>

@@ -1,39 +1,46 @@
-import './Projects-style.css';
-import MainBottom from '../../assets/botao-home.png';
-import WhatBottom from '../../assets/team.png';
-import RocketBottom from '../../assets/rocket.png';
-import ContactBottom from '../../assets/contact-mail.png';
-import Work01 from '../../assets/Security.png';
-import Work02 from '../../assets/Xiaomi.png';
-import Work03 from '../../assets/Puppy.png';
-import Work04 from '../../assets/Art-design.png';
+import Celular from '../../images/Celular.png';
+import AceraP from '../../images/Acera.png';
+import Amaral from '../../images/Amarals.png';
+import Condo from '../../images/Condo.png';
+
+import './projects.css';
 
 function Projects() {
   return (
     <div id="projects">
     <div className="Projects">
-      <div className="Container-Projects">
-      <h2 className="Header-Projects">Some of our work</h2> 
-      <h4 className="Texto-Pro">
-        Projects of web-pages
-      </h4>
-      <div className="Fotos">
-        <div className="Fotos01">
-      <img className="Work1" src={Work01} alt="work01" />
-      <img className="Work2" src={Work02} alt="work02" />
-      </div>
-      <div className="Fotos02">
-      <img className="Work3" src={Work03} alt="work03" />
-      <img className="Work4" src={Work04} alt="work04" />
-      </div>
-      </div>
-      </div>
-      <div className="FussnotePro">
-              <a className="MainPro" href='#main'><img ClassName="MainBottom" src={MainBottom} alt="MainB" /></a>
-              <a className="WhatPro" href='#what'><img ClassName="WhatBottom" src={WhatBottom} alt="WhatB" /></a>
-              <a className="RocketPro" href='#projects'><img ClassName="RocketBottom" src={RocketBottom} alt="RocketB" /></a>
-              <a className="MailPro" href='#contact'><img ClassName="ContactBottom" src={ContactBottom} alt="ContactB" /></a>
+      <div className='ProjectsContainer'>
+      <h1 className='ProjectHeaderText'>More than 50 awsome <br></br>web-design project-app's.</h1>
+      <h1 className='ProjectText'>We specialize in creating visual identities for your 
+        company,<br></br> products abd brands. Web-stes responsive or slide apresentation</h1>
+       <div className='ImageContaimer'>
+        <img className='Celular' src={Celular} alt="celular" />
+        <img className='AceraP' src={AceraP} alt="AceraP" />
+       </div>
+        <div className='ImageContaimerII'>
+        <img className='Condo' src={Condo} alt="Condo" />
+        <img className='Amaral' src={Amaral} alt="Amaral" />
         </div>
+      <div className='BodenContainer'>
+      <h1 className='ProjectBodenText'>Some of our client response.</h1>
+      <h1 className='BodenText'>Customer response during and after our work was finished.</h1>
+      <div className='ImageContaimerIII'>
+        <div className='ClienteI'>
+      <h3 className='Client01'>Precise, fast and excelent quality of workmanship.<br></br>
+      Thanks alot.</h3>
+      <h3 className='RVP'>R.v.Pesscatore</h3>
+      </div>
+      <div className='ClienteII'>
+      <h3 className='Client02'>Nothing to say, just fast and perfect.<br></br>Great Job.</h3>
+      <h3 className='MS'>Mathias Schnitzer</h3>
+      </div>
+      <div className='ClienteIII'>
+      <h3 className='Client03'>Had a blast, nice working with you guys.<br></br>Cool</h3>
+      <h3 className='IR'>Isabella Reske</h3>
+      </div>
+      </div>
+      </div>
+      </div>
     </div>
     </div>
   );
