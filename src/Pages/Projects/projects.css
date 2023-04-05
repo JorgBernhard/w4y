@@ -10,9 +10,9 @@
   align-items: center;
 
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 500px) {
   .Projects{
-    width: 420px; 
+    width: 500px; 
   height: 290vh;
    }}
 
@@ -29,9 +29,9 @@
   align-items: center;
   
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 500px) {
   .Projects{
-    width: 420px; 
+    width: 500px; 
   height: 290vh;
    }}
 .ProjectHeaderText {
@@ -42,7 +42,7 @@
   margin-left: -46rem;
   margin-top: 10rem;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 500px) {
   .ProjectHeaderText {
     font-size: 2rem;
     font-weight: 700;
@@ -59,7 +59,7 @@
   margin-left: -52rem;
   margin-bottom:0rem;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 500px) {
   .ProjectText {
     margin-left: 0rem;
     margin-bottom:0rem;
@@ -71,7 +71,7 @@
   align-items: center;
 
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 500px) {
   .ImageContaimer{
     display: flex;
     flex-direction: column;
@@ -85,7 +85,7 @@
   margin-left: 1rem;
   margin-top: 4rem;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 500px) {
   .Celular {
     width: 35rem;
     height: 40rem;
@@ -99,7 +99,7 @@
   margin-right: 1rem;
   margin-top: 4rem;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 500px) {
   .AceraP  {
     width: 35rem;
     height: 40rem;
@@ -110,7 +110,7 @@
 
   align-items: center;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 500px) {
   .ImageContaimerII {
     display: flex;
     flex-direction: column;
@@ -124,7 +124,7 @@
   margin-left: 1rem;
   margin-top: 2rem;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 500px) {
   .Amaral  {
     width: 35rem;
     height: 40rem;
@@ -138,7 +138,7 @@
   margin-right: 1rem;
   margin-top: 2rem;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 500px) {
   .Condo  {
     width: 35rem;
     height: 40rem;
@@ -151,7 +151,7 @@
  margin-left: 0rem;
   margin-top: 10rem;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 500px) {
   .ProjectBodenText  {
     font-size: 2rem;
     font-weight: 300;
@@ -166,7 +166,7 @@
   margin-left: 0rem;
   margin-bottom:0rem;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 500px) {
   .BodenText  {
     font-size: 1rem;
     font-weight: 300;
@@ -180,7 +180,7 @@
   margin-top: 2rem;
   gap: 2rem;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 500px) {
   .ImageContaimerIII {
     display: flex;
     flex-direction: column;

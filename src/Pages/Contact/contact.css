@@ -24,9 +24,9 @@
   
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 500px) {
   .ContactContainer {
-    width:420px; 
+    width:500px; 
     height: 180%;
    }}
 .ContatHeader {
@@ -38,7 +38,7 @@
   margin-top: 10rem;
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 500px) {
   .ContatHeader {
     font-size: 2rem;
     font-weight: 500;
@@ -52,7 +52,7 @@
   margin-bottom: 15rem;
   width: 60%;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 500px) {
   .ContatText  {
     font-size: 2rem;
   font-weight: 100;
@@ -66,7 +66,7 @@
   align-items: center;
   justify-content: center;
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 500px) {
   .ContactCenter  {
     display: flex;
     flex-direction: column;
@@ -81,7 +81,7 @@
   border-bottom: solid 0.1rem rgb(187, 39, 96);
   border-top: solid 0.1rem rgb(187, 39, 96);
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 500px) {
   .ContactCenter  {
 margin-top: -8rem;
 
@@ -127,7 +127,7 @@ margin-top: -8rem;
 .Whats:hover {
   background-color: rgb(187, 39, 96);
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 500px) {
   .Whats  {
 margin-bottom: 8rem;
 
