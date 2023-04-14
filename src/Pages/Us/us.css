@@ -106,7 +106,7 @@
   color: white;
   text-align: left;
   margin-top: 10rem;
-  width: 60%;
+ 
   z-index: 10;
 }
 @media only screen and (max-width: 850px) {
@@ -129,12 +129,12 @@
   .UsTextGeral {
     font-size: 2rem;
     font-weight: 300;
-    width: 60%;
+     width: 30rem;
    }}
 .UsContainerCenter {
   display: flex;
   flex-direction: row;
-
+ 
   align-items: center;
   justify-content: center;
 }
@@ -142,7 +142,7 @@
   .UsContainerCenter {
     display: flex;
     flex-direction: column;
-  
+    width: 50rem;
    }}
 .Ceo {
   width: 30rem;
