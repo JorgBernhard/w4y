@@ -17,7 +17,7 @@ function Main() {
         <img className="Main-logoIII" src={logoIII} alt="logoIII" />
       </header>
       <div className='MainContainerII'>
-        <h1 className='HeaderText'>Powerful and easy to use<br></br> web-applications</h1>
+        <h1 className='HeaderText'>Powerfull and easy to use<br></br> web-applications</h1>
         <h1 className='MainText'>We specialize in creating visual identities for your 
         company,<br></br> products abd brands.</h1>
       <div className='MainContainerCenter'>
