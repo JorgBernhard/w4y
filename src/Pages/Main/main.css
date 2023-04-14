@@ -2,51 +2,117 @@
   display: flex;
   flex-direction: column;
 
-  width: 100vw; 
-  height: 150vh;
+  width: 100vw;
+  height: 100vh;
 
-  background-color: rgb(61, 61, 61);
-
-  align-items: center;
-
-}
-@media only screen and (max-width: 500px) {
-  .Main {
-    height: 200vh;
-    
-   }}
-.MainContainer {
-  display: flex;
-  flex-direction: column;
-
-  width: 120rem; 
-  height: 100%;
-
-  background-image: url('../../images/background.png');
+  background-image: url('../../assets/background.png');
   background-size: cover;
 
   align-items: center;
-  
+  justify-content: center;
 }
-@media only screen and (max-width: 500px) {
-  .MainContainer {
-    width: 500px; 
+.MainContainer {
+  display: flex;
+  flex-direction: column;
+  
+  width: 120rem;
+ 
+
+  align-items: center;
+  justify-content: center;
+}
+@media only screen and (max-width: 950px) {
+  .Main {
+
+    height:130vh;
     
    }}
+.Main-header {
+  display: flex;
+  flex-direction:column;
 
+  position: absolute;
+
+  width: 120rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.Main-logoI {
+  width: 20rem;
+  height: 20rem;
+  margin-top: 5rem;
+  margin-left: 50rem;
+  opacity: 20%;
+  
+}
+.Main-logoI:hover {
+  opacity: 100%;
+}
+.Main-logoII {
+  width: 30rem;
+  height: 30rem;
+  opacity: 20%;
+  margin-top: 0rem;
+  margin-left: -45rem;
+}
+.Main-logoII:hover {
+  opacity: 100%;
+}
+.Main-logoIII {
+  width: 40rem;
+  height: 40rem;
+  opacity: 30%;
+  margin-top: -15rem;
+  margin-left: 50rem;
+}
+.Main-logoIII:hover {
+  opacity: 100% ;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .Main-logoI, .Main-logoII, .Main-logoIII {
+    animation: Main-logo-spin infinite 30s alternate-reverse;
+    
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .Main-logoII {
+    animation: Main-logo-spin infinite 15s alternate-reverse;
+    
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .Main-logoIII {
+    animation: Main-logo-spin infinite 20s alternate-reverse;
+  }
+}
+.Main-link {
+  color: #61dafb;
+}
+
+@keyframes Main-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 .HeaderText {
   font-family: 'Raleway', sans-serif;
   font-size: 5rem;
   font-weight: 700;
   color: white;
   text-align: center;
-  margin-top: 15rem;
+  margin-top: 10rem;
+  z-index: 10;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 950px) {
   .HeaderText {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 500;
     margin-right: 2rem;
+    margin-top: 10rem;
    }}
 .MainText {
   font-family: 'Raleway', sans-serif;
@@ -54,58 +120,64 @@
   font-weight: 300;
   color: white;
   text-align: center;
-  margin-bottom: 15rem;
+  margin-bottom: 10rem;
+  z-index: 10;
 }
 .MainContainerCenter {
   display: flex;
   flex-direction: row;
-
+  
   gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 950px) {
   .MainContainerCenter {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: -8rem;
-
+    z-index: 10;
    }}
-   .Job {
-     width: 30rem;
-     height: 35rem;
+.Job {
+     width: 20%;
+   
      border-radius: 2rem;
      
+     z-index: 10;
     }
-    @media only screen and (max-width: 500px) {
+    @media only screen and (max-width: 950px) {
       .Job {
-        
+        width: 40%;
         margin-bottom: 8rem;
         
       }}
       .Meeting {
-        width: 20rem;
-        height: 45rem;
+        width: 15%;
+      
         border-radius: 2rem;
         margin-top: -6rem;
+        z-index: 10;
       }
-      @media only screen and (max-width: 500px) {
-        .Management {
-          height: 35rem;
-          margin-bottom: 8rem;
+      @media only screen and (max-width: 950px) {
+        .Meeting {
+          width: 30%;
+          margin-bottom: 2rem;
           
         }}
 .Management {
-  width: 50rem;
-  height: 30rem;
+  width: 40%;
+ 
   border-radius: 2rem;
   margin-top: -2rem;
-         
+  z-index: 10;     
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 950px) {
    .Management {
     width: 30rem;
     height: 20rem;     
-   margin-top: 2rem;
+   margin-top: 0rem;
         
 }}
 .BotomContainer {
@@ -119,10 +191,10 @@
   font-weight: 700;
   color: white;
   text-align: justify;
-  margin-top: 15rem;
-  
+  margin-top: 2rem;
+  z-index: 10;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 950px) {
   .BotomText  {
     font-size: 2rem;
     font-weight: 500;
@@ -136,14 +208,14 @@
   color: white;
   text-align: center;
   margin-top: 2rem;
-  margin-bottom: 15rem;
+  margin-bottom: 8rem;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 950px) {
   .BotomTextGeral {
     font-size: 1rem;
     font-weight: 100;
  
-    width: 80%;
+    width: 70%;
     text-align: center;
     margin-left: -1rem;
 }}
@@ -161,7 +233,7 @@
   border-radius: 1rem;
   text-align: center;
   cursor: pointer;
-
+  margin-bottom: 3rem;
   margin-top: -6rem;
 }
 .Mail:hover {

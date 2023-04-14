@@ -5,34 +5,100 @@
   width: 100vw; 
   height: 110vh;
 
-  background-color: rgb(61, 61, 61);
+
+  background-image: url('../../assets/background.png');
+  background-size: cover;
+
 
   align-items: center;
 
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 850px) {
   .Us {
-    width: 500px; 
-    height: 220vh;
+  
+    height: 200vh;
    }}
 .UsContainer {
   display: flex;
   flex-direction: column;
 
   width: 120rem; 
-  height: 100%;
-
-  background-image: url('../../images/background.png');
-  background-size: cover;
-
+ 
   align-items: center;
   
 }
-@media only screen and (max-width: 500px) {
-  .UsContainer {
-    width: 500px; 
-  height: 100%;
-   }}
+.Us-header {
+  display: flex;
+  flex-direction:column;
+
+  position: absolute;
+
+  width: 120rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.Us-logoI {
+  width: 20rem;
+  height: 20rem;
+  margin-top: 5rem;
+  margin-left: 50rem;
+  opacity: 20%;
+  
+}
+.Us-logoI:hover {
+  opacity: 100%;
+}
+.Us-logoII {
+  width: 30rem;
+  height: 30rem;
+  opacity: 20%;
+  margin-top: 0rem;
+  margin-left: -45rem;
+}
+.Us-logoII:hover {
+  opacity: 100%;
+}
+.Us-logoIII {
+  width: 40rem;
+  height: 40rem;
+  opacity: 30%;
+  margin-top: -15rem;
+  margin-left: 50rem;
+}
+.Us-logoIII:hover {
+  opacity: 100% ;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .Us-logoI, .Us-logoII, .Us-logoIII {
+    animation: Us-logo-spin infinite 30s alternate-reverse;
+    
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .Us-logoII {
+    animation: Us-logo-spin infinite 15s alternate-reverse;
+    
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .Us-logoIII {
+    animation: Us-logo-spin infinite 20s alternate-reverse;
+  }
+}
+.Us-link {
+  color: #61dafb;
+}
+
+@keyframes Us-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .UsText {
   font-family: 'Raleway', sans-serif;
   font-size: 3rem;
@@ -40,8 +106,9 @@
   color: white;
   text-align: left;
   margin-top: 10rem;
+  z-index: 10;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 850px) {
   .UsText {
     font-size: 2rem;
   font-weight: 500;
@@ -55,12 +122,13 @@
   width: 60%;
   text-align: justify;
   margin-top: 4rem;
+  z-index: 10;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 850px) {
   .UsTextGeral {
     font-size: 2rem;
     font-weight: 300;
-    width: 80%;
+    width: 60%;
    }}
 .UsContainerCenter {
   display: flex;
@@ -69,7 +137,7 @@
   align-items: center;
   justify-content: center;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 850px) {
   .UsContainerCenter {
     display: flex;
     flex-direction: column;
@@ -82,6 +150,7 @@
   border-left: solid 0.3rem  rgb(240, 9, 190);
   border-bottom: solid 0.1rem  rgb(240, 9, 190);
   border-radius: 50%;
+  z-index: 10;
 }
 .UsCeoGeral {
   font-family: 'Raleway', sans-serif;
@@ -92,13 +161,14 @@
   width: 34%;
   text-align: justify;
   margin-top: 4rem;
+  z-index: 10;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width:  850px) {
   .UsCeoGeral{
     font-size: 2rem;
     font-weight: 300;
-    width: 80%;
-  
+    width: 60%;
+    
    }}
 .UsBoden {
   display: flex;
@@ -116,14 +186,13 @@
   color: white;
 
   margin-top: 2rem;
+  z-index: 10;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 850px) {
   .UsBodenText  {
     font-size: 2rem;
     font-weight: 500;
-    width: 500px;
-    text-align: left;
-    margin-left: 9rem;
+    margin-left: 0rem;
     
    }}
 .UsBodenImages {
@@ -132,11 +201,11 @@
   width: 80%;
 
   gap: 1rem;
-
+  z-index: 10;
   align-items: center;
   justify-content: center;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width:850px) {
   .UsBodenImages  {
     display: flex;
     flex-direction: column;
@@ -159,7 +228,7 @@
 
   margin-top: 1rem;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 850px) {
   .UsBodenImagesII  {
     display: flex;
     flex-direction: column;

@@ -5,11 +5,17 @@
   width: 100vw; 
   height: 100vh;
 
-  background-color: rgb(61, 61, 61);
+  background-image: url('../../assets/background.png');
+  background-size: cover;
 
   align-items: center;
 
 }
+@media only screen and (max-width: 850px) {
+  .Contact {
+    
+    height: 180%;
+   }}
 .ContactContainer {
   display: flex;
   flex-direction: column;
@@ -17,16 +23,13 @@
   width: 120rem; 
   height: 100%;
 
-  background-image: url('../../images/background.png');
-  background-size: cover;
-
   align-items: center;
   
 }
 
 @media only screen and (max-width: 500px) {
   .ContactContainer {
-    width:500px; 
+    width: 44rem; 
     height: 180%;
    }}
 .ContatHeader {
@@ -36,6 +39,7 @@
   color: white;
   text-align: center;
   margin-top: 10rem;
+  z-index: 10;
 }
 
 @media only screen and (max-width: 500px) {
@@ -51,6 +55,7 @@
   text-align: justify;
   margin-bottom: 15rem;
   width: 60%;
+  z-index: 10;
 }
 @media only screen and (max-width: 500px) {
   .ContatText  {
@@ -80,6 +85,8 @@
   border-left: solid 0.5rem rgb(187, 39, 96);
   border-bottom: solid 0.1rem rgb(187, 39, 96);
   border-top: solid 0.1rem rgb(187, 39, 96);
+
+  z-index: 10;
 }
 @media only screen and (max-width: 500px) {
   .ContactCenter  {
@@ -104,6 +111,7 @@ margin-top: -8rem;
   border: solid 0.1rem gray;
   border-radius: 1rem;
   cursor: pointer;
+  z-index: 10;
 }
 .Email:hover {
   background-color: rgb(187, 39, 96);
@@ -123,6 +131,7 @@ margin-top: -8rem;
   cursor: pointer;
 
   margin-top:4rem;
+  z-index: 10;
 }
 .Whats:hover {
   background-color: rgb(187, 39, 96);

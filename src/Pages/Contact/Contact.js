@@ -1,4 +1,8 @@
-import Jorg from '../../images/Jorg.png';
+import Jorg from '../../assets/Jorg.png';
+
+import logoI from '../../assets/logoI.png';
+import logoII from '../../assets/logoII.png';
+import logoIII from '../../assets/logoIII.png';
 import './contact.css';
 
 function Contact() {
@@ -6,6 +10,11 @@ function Contact() {
     <div id="contact">
     <div className="Contact">
       <div className='ContactContainer'>
+      <header className="Main-header">
+        <img className="Main-logoI" src={logoI}  alt="logoI" />
+        <img className="Main-logoII" src={logoII} alt="logoII" />
+        <img className="Main-logoIII" src={logoIII} alt="logoIII" />
+      </header>
         <h1 className='ContatHeader'>How to contact us.</h1>
         <h1 className='ContatText'>First let me sai, thank you for your interest in our company.
         It will be a pleasure to answer any question you have. We work 100% digital online.<br></br><br></br> Emails 

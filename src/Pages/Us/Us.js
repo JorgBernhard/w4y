@@ -1,16 +1,20 @@
-import Acera from '../../images/clientes/acera.png';
-import Bmg from '../../images/clientes/bmg.png';
-import Dewi from '../../images/clientes/dewi.png';
-import Epe from '../../images/clientes/epe.png';
-import Fuhrlaender from '../../images/clientes/fuhrlaender.png';
-import Kfw from '../../images/clientes/kfw.png';
-import Natural from '../../images/clientes/natural power.png';
-import Siah from '../../images/clientes/Siah.png';
-import Siemens from '../../images/clientes/Simens.png';
-import Vestas from '../../images/clientes/vestas.png';
-import Windex from '../../images/clientes/windex.png';
+import Acera from '../../assets/clientes/acera.png';
+import Bmg from '../../assets/clientes/bmg.png';
+import Dewi from '../../assets/clientes/dewi.png';
+import Epe from '../../assets/clientes/epe.png';
+import Fuhrlaender from '../../assets/clientes/fuhrlaender.png';
+import Kfw from '../../assets/clientes/kfw.png';
+import Natural from '../../assets/clientes/natural power.png';
+import Siah from '../../assets/clientes/Siah.png';
+import Siemens from '../../assets/clientes/Simens.png';
+import Vestas from '../../assets/clientes/vestas.png';
+import Windex from '../../assets/clientes/windex.png';
 
-import Ceo from '../../images/Eu.png';
+import logoI from '../../assets/logoI.png';
+import logoII from '../../assets/logoII.png';
+import logoIII from '../../assets/logoIII.png';
+
+import Ceo from '../../assets/Eu.png';
 import './us.css';
 
 function Us() {
@@ -18,6 +22,11 @@ function Us() {
     <div id="us">
     <div className="Us">
       <div className='UsContainer'>
+      <header className="Us-header">
+        <img className="Us-logoI" src={logoI}  alt="logoI" />
+        <img className="Us-logoII" src={logoII} alt="logoII" />
+        <img className="Us-logoIII" src={logoIII} alt="logoIII" />
+      </header>
             <h1 className='UsText'>Us W4Y Design</h1>
             <h1 className='UsTextGeral'>Since 1996 are we creating, envolving, growing with 
             our clients true the ups and downs of the digital market all over the world.

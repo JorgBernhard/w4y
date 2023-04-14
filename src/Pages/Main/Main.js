@@ -1,14 +1,22 @@
-import Management from '../../images/ManagementBack.png';
-import Job from '../../images/jobinterview.png';
-import Meeting from '../../images/meeting.png';
-
+import logoI from '../../assets/logoI.png';
+import logoII from '../../assets/logoII.png';
+import logoIII from '../../assets/logoIII.png';
+import Management from '../../assets/ManagementBack.png';
+import Job from '../../assets/jobinterview.png';
+import Meeting from '../../assets/meeting.png';
 import './main.css';
 
 function Main() {
   return (
     <div id="main">
     <div className="Main">
-      <div className='MainContainer'>
+       <div className="MainContainer">
+      <header className="Main-header">
+        <img className="Main-logoI" src={logoI}  alt="logoI" />
+        <img className="Main-logoII" src={logoII} alt="logoII" />
+        <img className="Main-logoIII" src={logoIII} alt="logoIII" />
+      </header>
+      <div className='MainContainerII'>
         <h1 className='HeaderText'>Powerful and easy to use<br></br> web-applications</h1>
         <h1 className='MainText'>We specialize in creating visual identities for your 
         company,<br></br> products abd brands.</h1>
@@ -25,6 +33,7 @@ function Main() {
       <a className="Mail" href='mailto:w4ysolutions@gmail.com'>Get started</a>  
       </div>
       </div>
+    </div>
     </div>
     </div>
   );

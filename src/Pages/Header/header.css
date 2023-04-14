@@ -1,44 +1,47 @@
 .Header {
   display: flex;
   flex-direction: row;
+  position: fixed;
+  width: 100vw;
 
   align-items: center;
   justify-content: center;
-  
+  z-index: 20;
 }
 .HeaderContainer {
   display: flex;
   flex-direction: row;
-  position: fixed;
-
-  width: 100rem;
-  height: 4rem;
-
-  margin-top: 4rem;
+  
+  width: 120rem;
+ 
+  background-color: rgba(36, 12, 20, 0.3);
+  margin-top: 0rem;
   align-items: center;
   justify-content: space-between;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 800px) {
   .HeaderContainer {
-    width: 500px;
+    width: 100%;
     justify-content: center;
    }}
 .Logo {
-  width: 10rem;
-
-  margin-left: -6rem;
-  margin-top: 2rem;
+  width: 12rem;
+  margin-top: 1rem;
+  margin-left: 10rem;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 800px) {
   .Logo  {
-    width: 6rem;
-
-  margin-left: -2rem;
+    width: 8rem;
     margin-right: 2rem;
+    margin-left: 0rem;
    }}
+
 .Headerlinks {
   flex-direction: row;
-  margin-top: 2rem;
+  margin-top: 0rem;
+  align-items: center;
+  justify-content: center;
+
 }
 .HeaderHome{
   all: unset;
@@ -55,10 +58,11 @@
 }
 @media only screen and (max-width: 500px) {
   .HeaderHome  {
+    margin-left: 0rem;
     font-size: 2.2rem;
    }}
 .HeaderHome:hover {
-  color: rgb(255, 51, 170);
+  color: rgb(0, 162, 255);
 }
 .HeaderWork{
   all: unset;
@@ -78,7 +82,7 @@
     font-size: 2.2rem;
    }}
 .HeaderWork:hover {
-  color: rgb(255, 51, 170);
+  color: rgb(255, 196, 0);
 }
 .HeaderUs {
   all: unset;
@@ -98,7 +102,7 @@
     font-size: 2.2rem;
    }}
 .HeaderUs:hover {
-  color: rgb(255, 51, 170);
+  color: rgb(166, 255, 0);
 }
 .HeaderContact {
   all: unset;
@@ -110,16 +114,16 @@
   cursor: pointer;
 
   margin-top: 2rem;
-  margin-right:1rem;
+  margin-right:10rem;
   margin-left: 1rem;    
 }
 @media only screen and (max-width: 500px) {
   .HeaderContact   {
     font-size: 2.2rem;
+    margin-right:0rem;
+
    }}
 .HeaderContact:hover {
   color: rgb(255, 51, 170);
 }
-.Headerrechts {
-  flex-direction: row;
-}
+
