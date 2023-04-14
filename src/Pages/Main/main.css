@@ -221,9 +221,9 @@
     font-size: 1rem;
     font-weight: 100;
  
-    width: 70%;
+    width: 60%;
     text-align: center;
-    margin-left: -1rem;
+    margin-left: 0rem;
 }}
 .Mail {
   all: unset;

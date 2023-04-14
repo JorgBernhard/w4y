@@ -16,13 +16,13 @@
 @media only screen and (max-width: 850px) {
   .Us {
   
-    height: 200vh;
+    height: 220vh;
    }}
 .UsContainer {
   display: flex;
   flex-direction: column;
 
-  width: 120rem; 
+  width: 120%; 
  
   align-items: center;
   
