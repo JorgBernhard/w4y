@@ -1,0 +1,142 @@
+.Contact {
+    display: flex;
+    flex-direction: column;
+  
+    width: 100vw; 
+    height: 100vh;
+    
+    background: linear-gradient(to right, #021538 10%, #063866 100%);
+
+    align-items: center;
+  
+  }
+  @media only screen and (max-width: 850px) {
+    .Contact {
+      
+      height: 180%;
+     }}
+  .ContactContainer {
+    display: flex;
+    flex-direction: column;
+  
+    width: 120rem; 
+    height: 100%;
+  
+    align-items: center;
+    
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .ContactContainer {
+      width: 44rem; 
+      height: 180%;
+     }}
+  .ContatHeader {
+    font-family: 'Raleway', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin-top: 10rem;
+    z-index: 10;
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .ContatHeader {
+      font-size: 2rem;
+      font-weight: 500;
+     }}
+  .ContatText  {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    color: white;
+    text-align: justify;
+    margin-bottom: 15rem;
+    width: 60%;
+    z-index: 10;
+  }
+  @media only screen and (max-width: 500px) {
+    .ContatText  {
+      font-size: 2rem;
+    font-weight: 100;
+    width: 70%;
+  
+     }}
+  .ContactCenter {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    align-items: center;
+    justify-content: center;
+  }
+  @media only screen and (max-width: 500px) {
+    .ContactCenter  {
+      display: flex;
+      flex-direction: column;
+  
+     }}
+  .Jorg {
+    width:30rem;
+    height: 30rem;
+  
+    border-radius: 50%;
+    border-left: solid 0.5rem rgb(187, 39, 96);
+    border-bottom: solid 0.1rem rgb(187, 39, 96);
+    border-top: solid 0.1rem rgb(187, 39, 96);
+  
+    z-index: 10;
+  }
+  @media only screen and (max-width: 500px) {
+    .ContactCenter  {
+  margin-top: -8rem;
+  
+     }}
+  .ContactLinks {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+  }
+  .Email {
+    all: unset;
+  
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+  
+    padding: 0.5rem;
+    border: solid 0.1rem gray;
+    border-radius: 1rem;
+    cursor: pointer;
+    z-index: 10;
+  }
+  .Email:hover {
+    background-color: rgb(187, 39, 96);
+  }
+  .Whats {
+    all: unset;
+  
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+  
+    padding: 0.5rem;
+    border: solid 0.1rem gray;
+    border-radius: 1rem;
+    cursor: pointer;
+  
+    margin-top:4rem;
+    z-index: 10;
+  }
+  .Whats:hover {
+    background-color: rgb(187, 39, 96);
+  }
+  @media only screen and (max-width: 500px) {
+    .Whats  {
+  margin-bottom: 8rem;
+  
+     }}

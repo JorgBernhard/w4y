@@ -1,0 +1,74 @@
+.HeaderBar {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 8rem;
+    align-items: center;
+    justify-content: center;
+   
+    background: linear-gradient(to right, #021538 10%, #063866 100%);
+    position: fixed;
+    margin-top: -1rem;
+    z-index: 10;
+}
+.LayoutContainer {
+    display: flex;
+    flex-direction: row;
+
+    width: 120rem;
+    height: 8rem;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.Logo {
+    height: 6rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.Links {
+    display: flex;
+    flex-direction: row;
+    gap: 1.8rem;
+    margin-right: 2rem;
+    cursor: pointer;
+}
+.LayoutMain {
+    all: unset;
+    font-family: 'Satisfy', cursive;
+    font-size: 2.4rem;
+    color: white;
+    cursor: pointer;
+}
+.LayoutMain:hover {
+    color: rgb(32, 141, 105);
+}
+.LayoutWork {
+    all: unset;
+    font-family: 'Satisfy', cursive;
+    font-size: 2.4rem;
+    color: white;
+    cursor: pointer;
+}
+.LayoutWork:hover {
+    color: rgb(32, 141, 105);
+}
+.LayoutUs {
+    all: unset;
+    font-family: 'Satisfy', cursive;
+    font-size: 2.4rem;
+    color: white;
+}
+.LayoutUs:hover {
+    color: rgb(32, 141, 105);
+}
+.LayoutContact {
+    all: unset;
+    font-family: 'Satisfy', cursive;
+    font-size: 2.4rem;
+    color: white;
+    cursor: pointer;
+}
+.LayoutContact:hover {
+    color: rgb(32, 141, 105);
+}

@@ -1,20 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Header from './Pages/Header/Header';
-import Main from './Pages/Main/Main';
-import Projects from './Pages/Projects/Projects';
-import Us from './Pages/Us/Us';
-import Contact from './Pages/Contact/Contact';
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./pages/Layout";
+import Main from "./pages/Main";
+import Work from "./pages/Work";
+import Us from "./pages/Us";
+import Contact from "./pages/Contact";
+
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Main />} />
+          <Route path="work" element={<Work />} />
+          <Route path="us" element={<Us />} />
+          <Route path="contact" element={<Contact />} />
+          </Route>
+      </Routes>
+    </BrowserRouter>
+  );
+}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <Header />
-    <Main />
-    <Projects />
-    <Us />
-    <Contact />
-  </React.StrictMode>
-);
-
+root.render(<App />);

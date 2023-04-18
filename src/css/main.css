@@ -1,0 +1,249 @@
+.Main {
+    display: flex;
+    flex-direction: column;
+  
+    width: 100vw;
+    height: 100%;
+  
+    background: linear-gradient(to right, #021538 10%, #063866 100%);
+    
+    align-items: center;
+    justify-content: center;
+  }
+.MainContainer {
+    display: flex;
+    flex-direction: column;
+    
+    width:100vh;
+   
+    align-items: center;
+    justify-content: center;
+  }
+  @media only screen and (max-width: 950px) {
+    .Main {
+  
+      height:110vh;
+      
+     }}
+     @media only screen and (max-width: 414px) {
+      .Main {
+    
+        height:130vh;
+        
+       }}
+  .Main-header {
+    display: flex;
+    flex-direction:column;
+  
+    position: absolute;
+  
+    width: 120rem;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .Main-logoI {
+    width: 20rem;
+    height: 20rem;
+    margin-top: 5rem;
+    margin-left: 50rem;
+    opacity: 20%;
+    
+  }
+  .Main-logoI:hover {
+    opacity: 100%;
+  }
+  .Main-logoII {
+    width: 30rem;
+    height: 30rem;
+    opacity: 20%;
+    margin-top: 0rem;
+    margin-left: -45rem;
+  }
+  .Main-logoII:hover {
+    opacity: 100%;
+  }
+  .Main-logoIII {
+    width: 40rem;
+    height: 40rem;
+    opacity: 30%;
+    margin-top: -15rem;
+    margin-left: 50rem;
+  }
+  .Main-logoIII:hover {
+    opacity: 100% ;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .Main-logoI, .Main-logoII, .Main-logoIII {
+      animation: Main-logo-spin infinite 30s alternate-reverse;
+      
+    }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .Main-logoII {
+      animation: Main-logo-spin infinite 15s alternate-reverse;
+      
+    }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .Main-logoIII {
+      animation: Main-logo-spin infinite 20s alternate-reverse;
+    }
+  }
+  .Main-link {
+    color: #61dafb;
+  }
+  
+  @keyframes Main-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .HeaderText {
+    font-family: 'Raleway', sans-serif;
+    font-size: 5rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin-top: 14rem;
+    z-index: 10;
+  }
+  @media only screen and (max-width: 950px) {
+    .HeaderText {
+      font-size: 2rem;
+      font-weight: 500;
+      margin-right: 2rem;
+      margin-top: 14rem;
+     }}
+  .MainText {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    margin-bottom: 10rem;
+    z-index: 10;
+  }
+  .MainContainerCenter {
+    display: flex;
+    flex-direction: row;
+    
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  @media only screen and (max-width: 950px) {
+    .MainContainerCenter {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: -8rem;
+      z-index: 10;
+     }}
+  .Job {
+       width: 20%;
+     
+       border-radius: 2rem;
+       
+       z-index: 10;
+      }
+      @media only screen and (max-width: 950px) {
+        .Job {
+          width: 40%;
+          margin-bottom: 8rem;
+          
+        }}
+        .Meeting {
+          width: 15%;
+        
+          border-radius: 2rem;
+          margin-top: -6rem;
+          z-index: 10;
+        }
+        @media only screen and (max-width: 950px) {
+          .Meeting {
+            width: 30%;
+            margin-bottom: 2rem;
+            
+          }}
+  .Management {
+    width: 40%;
+   
+    border-radius: 2rem;
+    margin-top: -2rem;
+    z-index: 10;     
+  }
+  @media only screen and (max-width: 950px) {
+     .Management {
+      width: 30rem;
+      height: 20rem;     
+     margin-top: 0rem;
+          
+  }}
+  .BotomContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .BotomText {
+    font-family: 'Raleway', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    text-align: justify;
+    margin-top: 2rem;
+    z-index: 10;
+  }
+  @media only screen and (max-width: 950px) {
+    .BotomText  {
+      font-size: 2rem;
+      font-weight: 500;
+      margin-top: 3rem;
+      margin-left: -1rem;
+  }}
+  .BotomTextGeral {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 8rem;
+  }
+  @media only screen and (max-width: 950px) {
+    .BotomTextGeral {
+      font-size: 1rem;
+      font-weight: 100;
+   
+      width: 60%;
+      text-align: center;
+      margin-left: 0rem;
+      z-index: 10;
+  }}
+  .Mail {
+    all: unset;
+  
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    width: 15rem;
+  
+    padding: 0.5rem;
+    border: solid 0.1rem gray;
+    border-radius: 1rem;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 12rem;
+    margin-top: -6rem;
+    z-index: 10;
+  }
+  .Mail:hover {
+    background-color: rgb(187, 39, 96);
+  }

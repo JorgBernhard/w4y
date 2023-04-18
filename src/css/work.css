@@ -1,0 +1,341 @@
+.Work {
+    display: flex;
+    flex-direction: column;
+  
+    width: 100vw;
+    height: 180vh;
+  
+    background: linear-gradient(to right, #021538 10%, #063866 100%);
+  
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @media only screen and (max-width: 850px) {
+    .Work {
+       height: 350vh;
+     }}
+  
+     .Work-header {
+       display: flex;
+       flex-direction:column;
+       
+       position: absolute;
+       
+       width: 120rem;
+       justify-content: center;
+       align-items: center;
+      }
+      
+  .Work-logoI {
+    width: 20rem;
+    height: 20rem;
+    margin-top: 5rem;
+    margin-left: 50rem;
+    opacity: 20%;
+    
+  }
+  .Work-logoI:hover {
+    opacity: 100%;
+  }
+  .Work-logoII {
+    width: 30rem;
+    height: 30rem;
+    opacity: 20%;
+    margin-top: 0rem;
+    margin-left: -45rem;
+  }
+  .Work-logoII:hover {
+    opacity: 100%;
+  }
+  .Work-logoIII {
+    width: 40rem;
+    height: 40rem;
+    opacity: 30%;
+    margin-top: -15rem;
+    margin-left: 50rem;
+  }
+  .Work-logoIII:hover {
+    opacity: 100% ;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .Work-logoI, .Work-logoII, .Work-logoIII {
+      animation: Work-logo-spin infinite 30s alternate-reverse;
+      
+    }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .Work-logoII {
+      animation: Work-logo-spin infinite 15s alternate-reverse;
+      
+    }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .Work-logoIII {
+      animation: Work-logo-spin infinite 20s alternate-reverse;
+    }
+  }
+  .Work-link {
+    color: #61dafb;
+  }
+  
+  @keyframes Work-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .Work{
+      
+      height: 270vh;
+    }}
+    
+    .WorkContainer {
+      display: flex;
+      flex-direction: column;
+      
+      width: 120rem;
+    
+      align-items: center;
+      justify-content: center;
+      
+    }
+    .WorkHeaderText {
+      font-family: 'Raleway', sans-serif;
+      font-size: 3rem;
+      font-weight: 700;
+      color: white;
+      text-align: center;
+    }
+    @media only screen and (max-width: 950px) {
+      .WorkHeaderText {
+        font-size: 2rem;
+      font-weight: 700;
+      text-align: center;
+  
+      margin-left: 0rem;
+     }}
+  .WorkText {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+   
+    margin-bottom:0rem;
+  }
+  @media only screen and (max-width: 950px) {
+    .WorkText {
+      margin-left: 0rem;
+      margin-bottom:0rem;
+     }}
+  .ImageContaimer {
+    display: flex;
+    flex-direction: row;
+  
+    align-items: center;
+  
+  }
+  @media only screen and (max-width: 850px) {
+    .ImageContainer{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+     }}
+  .Celular {
+    width: 40rem;
+    height: 50rem;
+  
+    border-radius: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-top: 4rem;
+    z-index: 10;
+  }
+  @media only screen and (max-width: 500px) {
+    .Celular {
+      width: 30rem;
+      height: 40rem;
+     
+     }}
+  .AceraP {
+    width: 40rem;
+    height: 50rem;
+  
+    border-radius: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 4rem;
+    z-index: 10;
+  }
+  @media only screen and (max-width: 500px) {
+    .AceraP  {
+      width: 30rem;
+      height: 40rem;
+     }}
+  .ImageContaimerII {
+    display: flex;
+    flex-direction: row;
+  
+    align-items: center;
+  }
+  @media only screen and (max-width: 850px) {
+    .ImageContainerII {
+      display: flex;
+      flex-direction: column;
+     }}
+  .Amaral {
+    width: 40rem;
+    height: 50rem;
+  
+    border-radius: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    z-index: 10;
+  }
+  @media only screen and (max-width: 500px) {
+    .Amaral  {
+      width: 30rem;
+      height: 40rem;
+     }}
+  .Condo {
+    width: 40rem;
+    height: 50rem;
+  
+    border-radius: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    z-index: 10;
+  }
+  @media only screen and (max-width: 500px) {
+    .Condo  {
+      width: 30rem;
+      height: 40rem;
+     }}
+  .WorkBodenText {
+    font-family: 'Raleway', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+   margin-left: 0rem;
+    margin-top: 10rem;
+  }
+  @media only screen and (max-width: 500px) {
+    .WorkBodenText  {
+      font-size: 2rem;
+      font-weight: 300;
+      text-align: center;
+      margin-top: 4rem;
+     }}
+  .BodenText {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    color: white;
+    text-align: justify;
+    margin-left: 0rem;
+    margin-bottom:0rem;
+  }
+  @media only screen and (max-width: 500px) {
+    .BodenText  {
+      font-size: 1rem;
+      font-weight: 300;
+      text-align: center;
+     }}
+  .ImageContainerIII {
+    display: flex;
+    flex-direction: row;
+  
+    align-items: center; 
+    margin-top: 2rem;
+    gap: 2rem;
+  }
+  @media only screen and (max-width: 850px) {
+    .ImageContainerIII {
+      display: flex;
+      flex-direction: column;
+     }}
+  .ClienteI {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background: linear-gradient(to right, #ffffff 0%, #e2fccd 100%);
+    border-radius: 1rem;
+    align-items: center;
+  }
+  .Client01 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    width: 25rem;
+    margin-top: 2rem;
+  }
+  .RVP {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    width: 25rem;
+    margin-top: 1rem;
+    text-align: right;
+  }
+  .ClienteII {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background: linear-gradient(to right, #ffffff 0%, #c0e7f8 100%);
+    border-radius: 1rem;
+    align-items: center;
+  }
+  .Client02 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    width: 25rem;
+    margin-top: 2rem;
+  }
+  .MS {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    width: 25rem;
+    margin-top: 1rem;
+    text-align: right;
+  }
+  .ClienteIII {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background: linear-gradient(to right, #ffffff 0%, #ffdbed 100%);
+    border-radius: 1rem;
+    align-items: center;
+  }
+  @media only screen and (max-width: 850px) {
+    .ClienteIII {
+    margin-bottom: 10rem;
+     }}
+  .Client03 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    width: 25rem;
+    margin-top: 2rem;
+  }
+  .IR {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    width: 25rem;
+    margin-top: 1rem;
+    text-align: right;
+  }
