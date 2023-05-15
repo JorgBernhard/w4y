@@ -88,7 +88,7 @@ function App() {
                 Colaboração<br></br>
                 Empatia<br></br>
                 Interesse<br></br>
-                Vontade de areender<br></br>
+                Vontade de apreender<br></br>
                 Auto-controle<br></br>
                 Solucionar problemas<br></br>
                 Pensamento analitico<br></br>
