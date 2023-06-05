@@ -1,0 +1,102 @@
+.HeaderBar {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 7vh;
+    
+    position: fixed;
+    margin-top: 0rem;
+    background: linear-gradient(to right, #4e032fb0 30%, #003f64b0 100%);
+    justify-content: center;
+    align-items: center;
+}
+.LayoutContainer {
+    display: flex;
+    flex-direction: row;
+    
+    width: 90%;
+    height: 8rem;
+    margin-left: 0rem;
+    justify-content:space-between;
+    align-items: center;
+     
+    z-index: 10;
+}
+.Portfolio {
+    font-family: 'Satisfy', cursive;
+    font-weight: 500;
+    font-size: 4rem;
+    color: white;
+    margin-left: 2rem;
+}
+@media only screen and (max-width: 1000px) {
+  .Portfolio {
+    font-size: 2.6rem;
+   }}
+.Links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+.PortuguesB {
+    width: 3rem;
+    cursor: pointer;
+}
+.PortuguesB:hover {
+    opacity: 0.5;
+}
+.English {
+    width: 3rem;
+    cursor: pointer;
+}
+.English:hover {
+    opacity: 0.5;
+}
+.Rechts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    margin-right: 0rem;
+  }
+  .Mail {
+   
+   height: 1.8rem;
+    color: white;
+    cursor: pointer;
+
+  }
+  .Mail:hover {
+    opacity: 0.5;
+}
+  .Whats {
+   
+    height: 1.8rem;
+     color: white;
+     cursor: pointer;
+   
+  }
+  .Whats:hover {
+    opacity: 0.5;
+}
+  .Git {
+   
+    height: 1.8rem;
+     color: white;
+     cursor: pointer;
+
+  }
+  .Git:hover {
+    opacity: 0.5;
+}
+  .Linked {
+    
+    height: 1.8rem;
+     color: white;
+     cursor: pointer;
+    margin-right: 3rem;
+  }
+  .Linked:hover {
+    opacity: 0.5;
+}
