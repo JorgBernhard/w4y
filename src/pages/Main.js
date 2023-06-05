@@ -47,7 +47,7 @@ Of course, since all projects have defined timelines, you have to apply pressure
             <div className="Second">
             <img className='Agile' src={Agile} alt="agile"></img>
             <h4 className="Text-Agile">You need Skills and very good organsation
-            ideas. Planing like TimePlaner, Agile Methodologies are perfect. 
+            ideas. Planing like TimePlaner, Agile Methodologies are perfect. <br></br> <br></br>
             Softskills are must.
             </h4>
             </div>

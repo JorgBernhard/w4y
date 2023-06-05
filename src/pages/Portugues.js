@@ -18,7 +18,7 @@ import Siemens from '../assets/clientes/Simens.png';
 import Vestas from '../assets/clientes/vestas.png';
 import Windex from '../assets/clientes/windex.png';
 
-import Resume from '../assets/Jorg Reske Resume.pdf';
+import ResumeP from '../assets/Jorg Reske Resume.pdf';
 
 const Portugues = () => {
     return <>
@@ -37,7 +37,7 @@ const Portugues = () => {
          </div>
          <div className="RightContainer">
          <div className="PortResumePo">
-         <a className="PortResume" href={Resume} download="ResumeP">Baixar meu Resume</a>
+         <a className="PortResume" href={ResumeP} download="ResumeP">Baixar meu Resume</a>
          </div>
             <h3 className="PortBem">Bem Vindo ao meu Portfolio</h3>
             <h4 className="PortText-Right">Obrigado pelo Interesse. <br></br> <br></br>
