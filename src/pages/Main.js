@@ -35,7 +35,7 @@ const Main = () => {
             </div>
          </div>
          <div className="RightContainer">
-            <div className="EngResumePo">
+            <div className="EngResume">
          <a className="Resume" href={Resume} download="Resume">Download my Resume</a>
          </div>
             <h3 className="Bem">Welcome to my Portfolio</h3>
