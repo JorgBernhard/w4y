@@ -17,7 +17,7 @@ import Siemens from '../assets/clientes/Simens.png';
 import Vestas from '../assets/clientes/vestas.png';
 import Windex from '../assets/clientes/windex.png';
 
-import Resume from '../assets/Jorg Reske Resume.pdf';
+import Resume from '../assets/JBR PM eng.pdf';
 
 const Main = () => {
     return <>
